@@ -1,0 +1,32 @@
+{
+    "port": {
+        "001": {
+            "serial_id": "二路",
+            "property": {
+                "管理员": "管理员1",
+                "位置": "车间1"
+            },
+            "device_id": 1,
+            "data_id": 1
+        },
+        "002": {
+            "serial_id": "二路",
+            "property": {
+                "管理员": "管理员1",
+                "位置": "车间2"
+            },
+            "device_id": 1,
+            "data_id": 2
+        }
+    },
+    "serial": {
+        "二路": {
+            "parity": "NONE",
+            "protocol_id": "new",
+            "bytesize": "8",
+            "com": "COM6",
+            "stopbits": "1",
+            "baudrate": 19200
+        }
+    }
+}
